@@ -1,0 +1,156 @@
+#hero {
+  padding-top: 150px;
+  background: var(--primaryColor);
+}
+
+.hero__left,
+.hero__right {
+  width: 45%;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.search__btn {
+  width: 112px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background-color: var(--backgroundColor);
+  color: var(--secondaryColor);
+}
+
+.search__input {
+  border: none;
+  outline: none;
+}
+
+.hero__inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 60px;
+  background: var(--secondaryColor);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#brands{
+    padding-top: 50px;
+}
+
+.brands__cards__card {
+  width: 32%;
+  padding: 20px 30px;
+  gap: 30px;
+  background-color: #f6f6f6;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.brands__cards__card__desc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.products__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.products__cards__card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    align-items: center;
+}
+
+.view-more__btn{
+    width: 150px;
+    height: 40px;
+    border: 1px solid transparent;
+    background: var(--backgroundColor);
+    color: var(--secondaryColor);
+    border-radius: 10px;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.about__cards__card{
+    gap: 30px;
+    padding: 20px 30px;
+    background:#F6F6F6;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.about__cards__card__desc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subscribe{
+    background: #F6F6F6;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.subscribe__left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.subscribe__inputs{
+    width: 60%;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--secondaryColor);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.subscribe__inputs input{
+    border: none;
+    outline: none;
+}
+
+.subscribe__left,.subscribe__left{
+    width: 50%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.footer h3{
+    color: var(--secondaryColor);
+    margin: 0px auto;
+}

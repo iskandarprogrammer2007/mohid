@@ -1,0 +1,33 @@
+:root {
+  --primaryColor: black;
+  --secondaryColor: white;
+  --backgroundColor: #3858D6;
+  --hoverColor: skyblue;
+  --darkModeColor: black;
+  --secondaryHoverColor: gray;
+  --pSize: 16px;
+  --h1Size: 64px;
+  --h2Size: 36px;
+  --h3Size: 24px;
+}
+
+h1 {
+  font-size: var(--h1Size);
+  color: var(--secondaryColor);
+}
+
+h2 {
+  font-size: var(--h2Size);
+  color: var(--primaryColor);
+}
+
+h3 {
+  font-size: var(--h3Size);
+  color: var(--primaryColor);
+}
+
+p {
+  font-size: var(--pSize);
+  color: #8b8e99;
+}
+
